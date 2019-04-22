@@ -7,8 +7,16 @@ struct Node {
     Node<T>* next;
     Node<T>* prev;
 
-    void killSelf() {
-        // TODO
+    Node(T data){
+        this->data = data;
+        this->next = nullptr;
+    }
+
+    void genocidio() {
+        while(next != nullptr){
+            genocidio();
+        }
+        delete next;
     }
 };
 

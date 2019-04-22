@@ -1,0 +1,90 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/circular.h
+list.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/list.h
+iterators/bidirectional_iterator.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/iterators/bidirectional_iterator.h
+iostream
+-
+vector
+-
+algorithm
+-
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/forward.h
+list.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/list.h
+iterators/forward_iterator.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/iterators/forward_iterator.h
+iostream
+-
+vector
+-
+algorithm
+-
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/iterator.h
+node.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/node.h
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/iterators/bidirectional_iterator.h
+../iterator.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/iterator.h
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/iterators/forward_iterator.h
+../iterator.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/iterator.h
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/linked.h
+list.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/list.h
+iterators/bidirectional_iterator.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/iterators/bidirectional_iterator.h
+iostream
+-
+vector
+-
+algorithm
+-
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/list.h
+node.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/node.h
+string
+-
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/mock/mocker.h
+random
+-
+type_traits
+-
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/node.h
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/test/tester.cpp
+tester.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/test/tester.h
+
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/test/tester.h
+stdexcept
+-
+iostream
+-
+assert.h
+-
+../mock/mocker.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/mock/mocker.h
+../forward.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/forward.h
+../linked.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/linked.h
+../circular.h
+/root/Documentos/Tareas/cursos de carreara varoniles/ciclo 5/AED/labs/lists/lists-L4mb0/circular.h
+

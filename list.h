@@ -2,6 +2,10 @@
 #define LIST_H
 
 #include "node.h"
+//#include "includess.h"
+#include <string>
+
+using namespace std;
 
 template <typename T>
 class List {
@@ -28,7 +32,13 @@ class List {
         virtual string name() = 0;
 
         ~List() {
-            // TODO
+            auto *next = head;
+
+            while(next) {
+                auto *sacrificio = next;
+                next = next->next;
+                delete sacrificio;
+            }
         }
 };
 

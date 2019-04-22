@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/list-L4mb0.dir/main.cpp.o CMakeFiles/list-L4mb0.dir/mock/mocker.cpp.o CMakeFiles/list-L4mb0.dir/test/tester.cpp.o  -o list-L4mb0 
